@@ -1,6 +1,22 @@
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: black;
-    color: white;
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #navbar li,
+  a {
+    width: 100%;
+    text-align: center;
+  }
+
+  #navbar a {
+    border-top: white 1px solid;
   }
 }
